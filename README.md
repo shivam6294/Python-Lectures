@@ -1,10 +1,5 @@
 
-# Python-Lectures  
-
-
-
-
-Note: [Andreas Ernst](http://users.monash.edu/~andrease/) has improvised and updated the repo to python 3, [Link](https://gitlab.erc.monash.edu.au/andrease/Python4Maths/tree/master)
+# python-tutorials  
 
 ## Introduction
 
@@ -12,80 +7,42 @@ Python is a modern, robust, high level programming language. It is very easy to 
 
 ## Installation
 
-Mac OS X and Linux comes pre installed with python. Windows users can download python from https://www.python.org/downloads/ .
+Installing all the necessary libraries from Python's website might prove troublesome. Anaconda comes pre packaged with all the necessary python libraries and also IPython (now called Jupyter).
 
-To install IPython run,
+### Anaconda
 
-    $ pip install ipython[all]
-    
-This will install all the necessary dependencies for the notebook, qtconsole, tests etc.
+Download the `Python 3` distribution of Anaconda from https://www.continuum.io/downloads
 
-### Installation from unofficial distributions
+Anaconda is completely free and includes more than 300 python packages. Python 3.6 comes highly recommended!
 
-Installing all the necessary libraries might prove troublesome. Anaconda and Canopy comes pre packaged with all the necessary python libraries and also IPython.
+## Launching a Jupyter Notebook server
 
-#### Anaconda
+After installing anaconda, activate the anaconda virtual environment. (From the terminal:
 
-Download Anaconda from https://www.continuum.io/downloads
-
-Anaconda is completely free and includes more than 300 python packages. Both python 2.7 and 3.4 options are available.
-
-#### Canopy
-
-Download Canopy from https://store.enthought.com/downloads/#default
-
-Canopy has a premium version which offers 300+ python packages. But the free version works just fine. Canopy as of now supports only 2.7 but it comes with its own text editor and IPython environment.
-
-## Launching IPython Notebook
+    source path-to-anaconda3-directory/bin/activate
 
 From the terminal
 
-    ipython notebook
-
-In Canopy and Anaconda, Open the respective terminals and execute the above.
-
-## How to learn from this resource?
-
-You can download the pdf copy from here : [Get Started with Python](https://github.com/rajathkumarmp/Python-Lectures/blob/master/Python.pdf)
-
-It is better to download all the ipython notebooks from this repository https://github.com/rajathkumarmp/Python-Lectures and learn it on the notebook itself rather than having to refer to a pdf.
-
-Launch ipython notebook from the folder which contains the notebooks. Open each one of them
-
-    Cell > All Output > Clear
-    
-This will clear all the outputs and now you can understand each statement and learn interactively.
+    jupyter notebook
 
 ## Table of contents
 
+00a - Computing Architecture - Basics 
+00b - Source Code Control - Basics
 
+01  - Variable, Operators and Built-in Functions
 
-[00 - Introduction and Installation](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/00.ipynb)
+02  - Print Statement, Precision and FieldWidth 
 
+03  - Data Structures I Lists, Tuples and Sets
 
-[01 - Variable, Operators and Built-in Functions](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/01.ipynb)
+04  - Strings and Dictionaries
 
+05 - Control Flow Statements
 
-[02 - Print Statement, Precision and FieldWidth](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/02.ipynb)
+06 - Functions
 
-
-[03 - Lists, Tuples and Sets](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/03.ipynb)
-
-
-[04 - Strings and Dictionaries](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/04.ipynb)
-
-
-[05 - Control Flow Statements](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/05.ipynb)
-
-
-[06 - Functions](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/06.ipynb)
-
-
-[07 - Classes](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/07.ipynb)
-
-
-
-These are online read-only versions.
+07 - Classes
 
 ## License
 
