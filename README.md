@@ -27,22 +27,21 @@ From the terminal
 
 ## Table of contents
 
-00a - Computing Architecture - Basics 
-00b - Source Code Control - Basics
+00 - Computing Architecture - Basics 
 
-01  - Variable, Operators and Built-in Functions
+01  - Variables, Arithmetic and  Operators, Strings
 
-02  - Print Statement, Precision and FieldWidth 
+02  - Data Structures I - Lists, Tuples and Sets
 
-03  - Data Structures I Lists, Tuples and Sets
+03  - Data Structures II - Dictionaries
 
-04  - Strings and Dictionaries
+04 - Functions
 
-05 - Control Flow Statements
+05 - Inbuilt functions and Standard Libraries
 
-06 - Functions
+06 - Classes
 
-07 - Classes
+07 - Data Processing Basics - Intro to Pandas
 
 ## License
 
